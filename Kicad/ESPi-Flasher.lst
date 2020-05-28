@@ -1,0 +1,18 @@
+eeschema (2013-jul-07)-stable  >> Creation date: lun. 04 mai 2020 17:36:30 IST
+#Cmp ( order = Reference )
+| C1         47µF       
+| C2         100nF       
+| P1         Pi Header   
+| P2         +5V         
+| P3         +3.3V       
+| P4         GPIO        
+| R1         200         
+| R2         1.47k       
+| R3         1.47k       
+| R4         200         
+| SW1        Flash - Run 
+| SW2        Tx - GPIO   
+| SW3        Rx - GPIO   
+| SW4        Reset       
+| U1         ESP8266-01  
+#End Cmp

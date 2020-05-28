@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = dim. 10 mai 2020 17:24:29 IST
+
+BeginCmp
+TimeStamp = /5E8A0647;
+Reference = C1;
+ValeurCmp = 47µF;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EB02429;
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5E8A0531;
+Reference = P1;
+ValeurCmp = Pi Header;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5E8A06EF;
+Reference = P2;
+ValeurCmp = +5V;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5E8A06FE;
+Reference = P3;
+ValeurCmp = +3.3V;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5E8A070D;
+Reference = P4;
+ValeurCmp = GPIO;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5E8A0656;
+Reference = R1;
+ValeurCmp = 200;
+IdModule  = R3-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5E8A0665;
+Reference = R2;
+ValeurCmp = 1.47k;
+IdModule  = R3-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5E8A0674;
+Reference = R3;
+ValeurCmp = 1.47k;
+IdModule  = R3-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EB02407;
+Reference = R4;
+ValeurCmp = 200;
+IdModule  = R3-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EA48147;
+Reference = SW1;
+ValeurCmp = Flash - Run;
+IdModule  = SW_OS102011MS2QN1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EA47877;
+Reference = SW2;
+ValeurCmp = Tx - GPIO;
+IdModule  = SW_OS102011MS2QN1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EA47868;
+Reference = SW3;
+ValeurCmp = Rx - GPIO;
+IdModule  = SW_OS102011MS2QN1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5E8A09E4;
+Reference = SW4;
+ValeurCmp = Reset;
+IdModule  = SW_PCB_2PIN_NO;
+EndCmp
+
+BeginCmp
+TimeStamp = /5E8A0495;
+Reference = U1;
+ValeurCmp = ESP8266-01;
+IdModule  = pin_array_4x2;
+EndCmp
+
+EndListe
