@@ -9,7 +9,7 @@ Additional headers for GPIO and power rails (5v and 3.3v) are provided on the si
 
 ## Component list
 
-All the needed gerber files are in the [gerber](gerber/) directory. Create a zip of these files and send it to your manufacturer to print the PCB.
+All the needed gerber files are in the [Gerber](Gerber/) directory. Create a zip of these files and send it to your manufacturer to print the PCB.
 
 |Ref|Component|
 |---|---|
@@ -81,6 +81,7 @@ All 4 GPIO pins are available as standard GPIO. Serial interface is not availabl
 ##  License
 
 Copyleft 2020 - Nicolas AGIUS
+
 Creative Commons - Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 
 
