@@ -1,31 +1,37 @@
-#ESPi-Flasher
+# ESPi-Flasher
 
-ESPi-Flasher is a development board for ESP8266-01 as a Raspberri Pi HAT.
+ESPi-Flasher is a development board for ESP8266-01 as a Raspberry Pi HAT.
+
+![ESPi-Flasher](img/hat1.jpg)
 
 It enables you to easily flash an ESP8266-01 from the Raspberry using the onboard 3.3v serial port.
-Additional headers for GPIO and power rails (5v and 3.3v) are provided on the side of the hat to plug breadboard or other testing devices.
+Additional headers for GPIO and power rails (5v and 3.3v) are provided on the side of the hat to plug a breadboard or other testing devices.
 
 ## Component list
 
+|Ref|Component|
+|---|---|
 |P1| 5x2 female header to be soldered up side down|
-[U2| 4x2 female header for ESP8266-01|
-|C1|47µF capacitor|
-|C2|100nF capacitor|
-|R1, R4|200 ohms resistors|
-|R2, R3|1.47k ohms resistors|
-|SW1, SW2, SW3|SPDT switch (ref. OS102011MS2QN1)|
-|SW4|Cherry MX switch or equivalent|
+|U2| 4x2 female header for ESP8266-01|
+|C1| 47µF capacitor|
+|C2| 100nF capacitor|
+|R1, R4| 200 ohms resistors|
+|R2, R3| 1.47k ohms resistors|
+|SW1, SW2, SW3| SPDT switch (ref. OS102011MS2QN1)|
+|SW4| Cherry MX switch or equivalent|
 
 ## Usage
 
-Plug the hat over the Raspberry Pi. P1 must be plugged at the top of the Pi header, on pins 1 to 10. 
+Plug the hat on top of the Raspberry Pi. P1 must be plugged at the top of the Pi header, on pins 1 to 10. 
 The mounting hole should match the one on the Raspberry board.
+
+![ESPi-Flasher](img/hat2.jpg)
 
 ### Flash mode
 
 Slide SW2 and SW3 to the *Serial* position and SW1 to *Flash*. Then press the Reset button.
 
-You can now use Arduino IDE to flash it on the serial port `/dev/ttyAMA0`.
+You can now use the Arduino IDE to flash it on the serial port `/dev/ttyAMA0`.
 If your Raspberry is headless, copy the firmware via SSH and flash it with Esptool:
 
 ```
